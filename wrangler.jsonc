@@ -1,0 +1,9 @@
+// Cloudflare: the built app served as static assets, every unknown path answered with index.html.
+{
+  "name": "my-app",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
